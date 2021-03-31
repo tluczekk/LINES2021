@@ -1,0 +1,13 @@
+config BR2_PACKAGE_MORSE
+	bool "morse"
+	depends on BR2_PACKAGE_LIBGPIOD
+	depends on BR2_PACKAGE_LIBGPIOD_TOOLS
+	help
+	  morse is a simple gpiod based game
+	  that utilises general purpose input
+	  output board to display a number in range
+	  0-23 in the Morse code. To score a point, 
+	  user has to turn the switch/press the button
+	  with the corresponding number.
+
+	  https://github.com/tluczekk
