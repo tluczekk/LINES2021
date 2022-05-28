@@ -1,0 +1,4 @@
+#!/bin/sh
+
+echo "STARTING SYNTHETIZER"
+python3 /usr/bin/synthetizer.py &

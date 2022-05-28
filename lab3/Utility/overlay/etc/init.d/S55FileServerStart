@@ -1,0 +1,10 @@
+#!/bin/sh
+
+echo "-------------------------------"
+echo "| Starting Python File Server |"
+echo "|        on port 8810         |"
+echo "|  forwarded to host's 8888   |"
+echo "-------------------------------"
+
+python3 /etc/init.d/server.py &
+
